@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardJadwal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:elevation="5dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    card_view:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:id="@+id/rel1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/getTanggal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:fontFamily="monospace"
+                android:text="26"/>
+
+
+            <TextView
+                android:id="@+id/getBulan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:text="12"/>
+
+            <TextView
+                android:id="@+id/getTahun"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:text="2020"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/getAcara"
+                android:text="Tenggarong"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/getTempat"
+                android:text="Rapat Bersama sambil ngentot"
+                android:textSize="12dp"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="2dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/getStatusku"
+                android:layout_gravity="right"
+                android:background="#6a5ae0"
+                android:text="Peler Kajung"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="2dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
